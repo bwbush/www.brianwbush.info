@@ -1,14 +1,14 @@
 Brian W Bush – Curriculum Vitae
 ===============================
 
-  ------------------------ ------------------------ ------------------------
-  650 Hartford Dr\
-  Boulder, CO 80305\
+650 Hartford Dr
+Boulder, CO 80305 USA
        
-  720–258–6728 (voice)\
-  <b.w.bush@acm.org>\
-  <http://xri.net/=b.w.bush/(+home)>\
-  ------------------------ ------------------------ ------------------------
+720–258–6728 (voice)
+<b.w.bush@acm.org>
+<http://www.bwbush.io/>
+
+------------------------ ------------------------ ------------------------
 
 ### Mission
 
@@ -24,7 +24,7 @@ A research & development or project leadership position in computing (especially
 
 ### Biographical Sketch
 
-Brian W. Bush is a Principal Engineer in the [Energy Forecasting & Modeling Group](http://www.nrel.gov/analysis/staff_efm.html) of the [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html) at the [National Renewable Energy Laboratory \[NREL\]](http://www.nrel.gov/).  He currently leads NREL’s [Biomass Scenario Model \[BSM\] project](projects/bsm.html), a system-dynamics simulation of the cellulosic biomass-to-biofuels supply chain, and its [Scenario Evaluation and Regionalization Analysis \[SERA\] project](projects/sera.html), an optimization tool for regional hydrogen infrastructure.  He has also led and collaborated on projects focused on numerous data-science and data-engineering projects such as the geostatistical modeling and analysis of the spatial and temporal correlations in renewable energy resources, automated anomaly detection and correction in energy datasets, and logical reasoning on qualitative semi-structured databases. He is a member of NREL's Research Council.
+Brian W. Bush is a Principal Engineer in the [Energy Forecasting & Modeling Group](http://www.nrel.gov/analysis/staff_efm.html) of the [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html) at the [National Renewable Energy Laboratory \[NREL\]](http://www.nrel.gov/).  He currently leads NREL’s [Biomass Scenario Model \[BSM\] project](projects/bsm.html), a system-dynamics simulation of the cellulosic biomass-to-biofuels supply chain, and its [Scenario Evaluation and Regionalization Analysis \[SERA\] project](projects/sera.html), an optimization tool for regional hydrogen infrastructure.  He has also led and collaborated on projects focused on numerous data-science and data-engineering projects such as the geostatistical modeling and analysis of the spatial and temporal correlations in renewable energy resources, automated anomaly detection and correction in energy datasets, and logical reasoning on qualitative semi-structured databases. He is a member of NREL’s Research Council.
 
 For more than seventeen years prior to his arrival at NREL, he was a technical staff member in the Energy and Infrastructure Analysis Group at Los Alamos National Laboratory \[LANL\]. His work on [TRANSIMS \[the Transportation Analysis Simulation System\]](projects/transims.html) from 1994 to 2000 there focused on leading research on software architecture, the representation of road networks, microsimulation output collection, and data compression. More recently, he developed computer simulations for complex phenomena such as [interacting critical infrastructures](projects/infrastructure.html) and [supercomputer hardware architectures](projects/a-la-carte.html). He formerly directed the [Interdependent Energy Infrastructure Simulation System \[IEISS\]](projects/ieiss.html) and [Critical Infrastructure Protection Decision Support System \[CIPDSS\]](projects/cipdss.html) projects, leading teams of approximately one dozen people, and held the position of Thrust Area Leader for the U.S. Dept. of Homeland Security’s Critical Infrastructure Protection Portfolio in its Science & Technology Directorate.  At LANL he was a member of its Patent Committee and its Institutional Computing Technical Committee.  As a visiting scientist at the National Center for Atmospheric Research (NCAR), he initiated efforts to [connect simulations of weather and climate to impact models for energy and infrastructure networks](projects/weather-impacts.html).
 
@@ -57,11 +57,11 @@ Comprehensive experience with object-oriented software engineering: analysis, ar
 
 Design and development expertise with system architectures, frameworks/patterns/libraries/wrappers, data structures, and algorithms.
 
-*Languages:* active use of C++ (1991–present), Java (1996–present), SQL (1992–present), XML/XSL (1998–present); familiarity with Prolog (1993–present), Haskell (2002–present); past use of Eiffel (1994–1997), FORTRAN (1979–1991), Pascal (1980–1985), PL/I (1982), POSTSCRIPT (1990–1992), SGML/DSSSL (1996–2001), Smalltalk (1993–1996), VRML (1996–2001).
+*Languages:* active use of C++ (1991–present), Haskell (2002–present), Java (1996–present), SQL (1992–present), XML/XSL (1998–present); familiarity with Prolog (1993–present); past use of Eiffel (1994–1997), FORTRAN (1979–1991), Pascal (1980–1985), PL/I (1982), POSTSCRIPT (1990–1992), SGML/DSSSL (1996–2001), Smalltalk (1993–1996), VRML (1996–2001).
 
 *Operating Systems:* UNIX (1990–present), Linux clusters (1998–present), Windows (1992–present).
 
-*Software:* databases—MySQL, Oracle, PostgreSQL, Derby; services—Globus, WSDL, WS-\*, SOAP; geographic information systems—ArcGIS, GeoTools, WFS/WMS/GML; class libraries—STL, MPI, OpenMap, Boost, Eclipse RCP; mathematics/statistics/visualization—Mathematica, R, GGobi; software engineering—SourceForge, Rational Rose, Together; configuration management—ClearCase, CVS, TeamWare; simulation—DaSSF, Vensim; ontology—OWL, RDF, Protégé.
+*Software:* databases—MySQL, Oracle, PostgreSQL, Derby; services—Globus, WSDL, WS-\*, SOAP; geographic information systems—ArcGIS, GeoTools, WFS/WMS/GML; class libraries—STL, MPI, OpenMap, Boost, Eclipse RCP/EMF/Ecore; mathematics/statistics/visualization—Mathematica, R, GGobi; software engineering—SourceForge, Rational Rose, Together, Eclipse; configuration management—ClearCase, CVS, TeamWare, Subversion, GIT, Mercurial; simulation—DaSSF, Vensim, STELLA; ontology—OWL, RDF, Protégé, TopBraid Composer.
 
 *Application Areas:* discrete-event and continuous simulation; graph and network analysis; mathematical and statistical modeling; data analysis, mining, and visualization; productivity tools.
 
@@ -93,6 +93,12 @@ California Institute of Technology, Pasadena, CA
 ### Continuing Education
 
 *Subject Areas:* statistics, graph theory, fuzzy logic, information theory, genetic algorithms, neural networks, data mining, approximate reasoning, simulation; visualization; object-oriented analysis and design, data structures, algorithms, patterns, ontologies, effective user interface design, software testing and quality assurance, software engineering process; project leadership & facilitation.
+
+“Learning from Data,” California Institute of Technology, Spring 2012.
+
+“Proposing to Win,” Korn/Ferry International, 10–11 January 2012.
+
+“Intermediate Dynamic Modeling with STELLA and iThink,” ISEE Systems, 10–12 December 2008.
 
 “Software Inspections and Peer Reviews,” Los Alamos National Laboratory, 28 February 2006.
 
@@ -131,6 +137,8 @@ Work Experience
 
 National Renewable Energy Laboratory, Golden, CO
 
+Led the Biomass Scenario Model (BSM) project, a system-dynamics simulation of the cellulosic biomass-to-biofuels supply chain.  Developed an enhanced version of the Scenario Evaluation and Regionalization Analysis (SERA), an optimization tool for regional hydrogen infrastructure.  Also collaborated on statistical and geospatial analyses of renewable energy systems (photovoltaics and wind-turbine farms) from technical, financial, and economic perspectives.  Researched issues around supporting community decisions in their transition to more efficient and renewable energy use.  Led a data-mining and analysis-automation project that is developing new statistical and machine learning methods for application to renewable energy information.
+
 ### Technical Staff Member, 1993–2008
 
 Los Alamos National Laboratory, Los Alamos, NM
@@ -143,19 +151,19 @@ Los Alamos National Laboratory, Los Alamos, NM
 
 Developed theory and computer simulations of ultrarelativistic heavy-ion collisions, nuclear dissipation, shape diffusion, and level densities, and solvable nuclear models.
 
-### Research Associate, 1987–92 (consultant), and Research Assistant, 1984–87
+### Research Associate, 1987–1992 (consultant), and Research Assistant, 1984–1987
 
 Pacific-Sierra Research Corporation, W. Los Angeles, CA
 
 Analyzed and developed computer simulations of large area urban fires, wildland fires, ignition phenomena; studied atmospheric and environmental impacts of nuclear weapons.
 
-### Research Assistant, 1988–90, and National Science Foundation Graduate Fellow, 1985–88
+### Research Assistant, 1988–1990, and National Science Foundation Graduate Fellow, 1985–1988
 
 Yale University, New Haven, CT
 
 Researched nuclear shape fluctuations, phase transitions, giant resonances, and Landau theory in hot rotating nuclei, comparing numerically computed predictions to available experimental data; investigated the shell model, level densities, nuclear damping, and pion-proton scattering.
 
-### Teaching Assistant, 1985–87
+### Teaching Assistant, 1985–1987
 
 Yale University, New Haven, CT
 
@@ -192,11 +200,15 @@ Association for Computing Machinery, 1996–present.
 
 Institute of Electrical and Electronics Engineers (including Computer Society), 1995–present.
 
-Society for Industrial and Applied Mathematics, 1995–present.
+Society for Industrial and Applied Mathematics, 1995–2008.
 
 Society for Risk Analysis, 2004–2005.
 
 ### Honors
+
+National Renewable Energy Laboratory President’s Award, 2013.
+
+National Renewable Energy Laboratory FY2010 Outstanding Achievement Award, 2011.
 
 Los Alamos Achievement Award, 2004.
 
@@ -256,10 +268,12 @@ FORTRAN: 17,868 lines of code.
 
 ### Beta Testing
 
-Tested pre-release versions of software for a major commercial database and programming language product firm (1994–96).
+Tested pre-release versions of software for a major commercial database and programming language product firm, 1994–1996.
 
 ### Committee Membership
 
-Patent Committee at Los Alamos National Laboratory (2002–2005).
+Research Council, National Renewable Energy Laboratory, 2014–present.
 
-Institutional Computing Technical Committee at Los Alamos National Laboratory (2002–03).
+Patent Committee at Los Alamos National Laboratory, 2002–2005.
+
+Institutional Computing Technical Committee at Los Alamos National Laboratory, 2002–2003.
