@@ -1,0 +1,38 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>Eclipse Visualizer</title>
+    </head>
+
+    <body>
+
+        <h1>Eclipse Visualizer</h1>
+
+        <hr/>
+
+        <p>The applet below shows a 3D visualization of solar and lunar eclipse data between the years 1975 and 2025. Use the buttons to navigate the scene and the mouse to query the objects. Each box represents a data record: the position, size, orientation, and color of the box represent attributes of the data.</p>
+
+        <hr/>
+
+        <applet code="banda.vis3d.TupleVisualizer" codebase="../.." width="750" height="550" alt="If you had a java-enabled browser, you would see an applet here.">
+            <param name="tuples" value="eclipses.jo"/>
+            <param name="xpos" value="Julian Day"/>
+            <param name="ypos" value="Coverage"/>
+            <param name="zpos" value="Body"/>
+            <param name="ysiz" value="Coverage"/>
+            <param name="zsiz" value="Coverage"/>
+            <param name="zang" value="Body"/>
+            <param name="colr" value="Type"/>
+        </applet>
+
+        <p>(This applet requires Java 3D 1.2 or higher.)</p>
+
+        <hr/>
+
+        <em>Copyright &copy; 2000 B. W. Bush<br/>All rights reserved</em>
+
+    </body>
+
+</html>

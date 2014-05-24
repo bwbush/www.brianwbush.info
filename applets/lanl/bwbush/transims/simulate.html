@@ -1,0 +1,99 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <title>Cellular Automaton Traffic Microsimulation</title>
+
+    </head>
+
+    <body>
+
+        <h1>Cellular Automaton Traffic Microsimulation</h1>
+
+        <hr/>
+
+        <h3>Overview</h3>
+
+        <p>The <a href="http://sourceforge.net/projects/transims/">TRANSIMS</a> microsimulation uses a cellular automata approach to provide the computational speed necessary to simulate an entire region at the individual traveler level. The cellular automata technique provides a means to simulate large numbers of vehicles and maintain a fast execution speed. Each link in the transportation network is divided into a finite number of cells. At each timestep of the simulation, each cell is examined for a vehicle occupant. If a vehicle is present in the cell, the vehicle may be advanced to another cell using a simple rule set. Increasing the fidelity by decreasing the cell size, adding vehicle attributes, and expanding the rule set results in slower computational speed. The fidelity and performance limits of the cellular automata microsimulation are evaluated to establish the computational detail required to support the fidelity necessary to meet analysis requirements.</p>
+
+        <p>The applet below is a simple example of a cellular automaton traffic microsimulation.</p>
+
+        <hr/>
+
+        <table>
+            <tr>
+                <td valign="top">
+                    <applet code="lanl.bwbush.transims.SimulatorApplet" codebase="../../.." width="400" height="600" hspace="5" alt="If you had a java-enabled browser, you would see an applet here.">
+                        <param name="DENSITY" value="0.125"/>
+                        <strong>If your browser recognized the applet tag, you would see an applet here.</strong>
+                    </applet>
+                </td>
+
+                <td valign="top">
+
+                    <h3>Instuctions:</h3>
+                    <p>Press "+" (or "-") to add (or remove) vehicles from the roadway. [You may have to click the mouse on the image first, in order to give the canvas the keyboard focus.]</p>
+
+                    <h3>Cellular automaton rules:</h3>
+                    <p>For each vehicle on the roadway:</p>
+                    <ul>
+                        <li>Compute the gap (i.e., the number of empty cells) in front of the vehicle.</li>
+                        <li>If the vehicle's speed is less than the gap and less than the maximum speed (5 cells per time step), increase the vehicle's speed by one cell per time step.</li>
+                        <li>If the vehicle's speed is greater than the gap, set the vehicle's speed to the value of the gap divided by one time step.</li>
+                        <li>If the vehicle's speed is greater than zero, decrease the vehicle's speed by one cell per time step with 30% probability.</li>
+                        <li>Move the vehicle forward the number of cells given by the vehicle's speed.</li>
+                    </ul>
+                    <p>After all of the vehicles have been updated, continue with the next time step.</p>
+
+                </td>
+            </tr>
+        </table>
+
+        <hr/>
+
+        <h3>Key:</h3>
+        <ul>
+            <li>Each pixel represents a piece of roadway 7.5 meters long for 1 second.</li>
+            <li>The rows of the image represent the roadway at a fixed time.</li>
+            <li>The columns of the image represent fixed locations on the roadway.</li>
+            <li>Vehicles travel from left to right.</li>
+            <li>Vehicles that leave the right side of the roadway reenter on the left side.</li>
+            <li>The following color scheme is used to display vehicles: <table border="1">
+                    <tr>
+                        <td> black </td>
+                        <td> no vehicle </td>
+                    </tr>
+                    <tr>
+                        <td> white </td>
+                        <td> vehicle traveling 0.0 m/s </td>
+                    </tr>
+                    <tr>
+                        <td> red </td>
+                        <td> vehicle traveling 7.5 m/s </td>
+                    </tr>
+                    <tr>
+                        <td> orange </td>
+                        <td> vehicle traveling 15.0 m/s </td>
+                    </tr>
+                    <tr>
+                        <td> yellow </td>
+                        <td> vehicle traveling 22.5 m/s </td>
+                    </tr>
+                    <tr>
+                        <td> green </td>
+                        <td> vehicle traveling 30.0 m/s </td>
+                    </tr>
+                    <tr>
+                        <td> blue </td>
+                        <td> vehicle traveling 37.5 m/s</td>
+                    </tr>
+                </table></li>
+        </ul>
+
+        <hr/>
+
+    </body>
+
+</html>
