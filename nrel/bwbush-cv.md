@@ -1,14 +1,15 @@
 Brian W Bush – Curriculum Vitae
 ===============================
 
-Energy Modeling & Forecasting Group  
-National Renewable Energy Laboratory  
-Golden, Colorado  
+Energy Forecasting & Modeling Group
+Strategic Energy Analysis Center
+National Renewable Energy Laboratory
+15013 Denver West Parkway, Mail Stop RSF300
+Golden, CO 80401 USA
 
-       
 720–258–6728 (voice)  
 <brian.bush@nrel.gov>  
-<http://www.nrel.gov/analysis/staff_efm.html>  
+<http://www.nrel.gov/analysis/staff/b_bush.html>  
 
 ------------------------ ------------------------ ------------------------
 
