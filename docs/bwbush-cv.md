@@ -268,8 +268,6 @@ Java: 186,400 source lines of code.
 
 Smalltalk: 30,664 source lines of code.
 
-Vensim: 1,293 equations.
-
 ### Beta Testing
 
 Tested pre-release versions of software for a major commercial database and programming language product firm, 1994–1996.
