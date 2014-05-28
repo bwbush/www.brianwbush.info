@@ -394,13 +394,17 @@ graduate level.
 
 Software Authorship Metrics
 
-C++: 173,127 lines of code.
+C++: 173,127 source lines of code.
 
-Java: 182,342 lines of code.
+FORTRAN: 17,868 source lines of code.
 
-Smalltalk: 30,664 lines of code.
+Haskell: 20,215 source lines of code.
 
-FORTRAN: 17,868 lines of code.
+Java: 186,400 source lines of code.
+
+Smalltalk: 30,664 source lines of code.
+
+Vensim: 1,293 equations.
 
 Beta Testing
 

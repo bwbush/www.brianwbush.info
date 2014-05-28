@@ -88,6 +88,7 @@ dynamic competition intensifies, including competition for cellulosic
 feedstocks and ethanol market shares. Rapid growth in ethanol production
 occurs in simulations that allow higher blending proportions of ethanol
 in gasoline-fueled vehicles, even up to RFS-targeted volumes of biofuel.
+
 Journals
 --------
 
@@ -636,6 +637,7 @@ results indicate that, in all scenarios, there is a potential for supply
 shortfalls, and associated upward pressure on prices, of food
 commodities requiring higher land use intensity (e.g., beef) which
 biofuels could exacerbate.
+
 Proceedings
 -----------
 
@@ -1070,6 +1072,7 @@ order of 10,000 processors connected by a quaternary fat-tree
 communications network), and a presentation of two classes of
 visualizations that clearly display the switch structure and the flow of
 information in the interconnecting network.
+
 Posters
 -------
 
@@ -1124,6 +1127,7 @@ Conrad, Gerard O’Reilly, William Buehring, Ronald Whitfield, and Michael
 Samsa, “Infrastructure Interdependency Consequence Analysis of a
 Telecommunications Disruption,” presented at the Working Together: R&D
 Partnerships in Homeland Security, Boston.
+
 Book Chapters
 -------------
 
@@ -1183,6 +1187,7 @@ will share insights that have been gleaned from a myriad of scenario-
 and policy-driven model runs. These insights will focus on how
 roadblocks, bottlenecks, and incentives all work in concert to have
 profound effects on the future of the industry.
+
 Presentations
 -------------
 
@@ -1290,6 +1295,7 @@ subhourly resolution at any spatial point, develop a methodology that is
 applicable to natural resources in general, and demonstrate capability
 of geostatistical techniques to predict the output of a potential solar
 plant.
+
 Patents
 -------
 
@@ -1317,6 +1323,7 @@ a framework and selector module that gathers the travel times from the
 simulation and uses them to re-plan activities and trips and re-run the
 simulation. The methods of the present invention produce appropriate
 dynamic behavior of the transportation network as a whole.
+
 Magazine Articles
 -----------------
 
@@ -1324,6 +1331,7 @@ T. W. Meyer, J. W. Davidson, I. G. Resnick, R. C. Gordon III, B. W.
 Bush, C. Unal, G. L. Toole, L. J. Dowell, and S. S. Scott, “The Los
 Alamos Center for Homeland Security,” Los Alamos Science, vol. 28,
 pp. 192–197.
+
 Theses
 ------
 
@@ -1361,6 +1369,7 @@ the B(E2), in accord with the experiment. Finally, we apply the
 fluctuation theory in improved calculations of nuclear level densities
 as a function of energy and spin using the static path approximation
 (SPA). Comparison with other calculations and experiments are made.
+
 Reports
 -------
 
@@ -2260,6 +2269,7 @@ A. A. Zagonel, B. W. Bush, S. H. Conrad, S. M. DeLand, I. J.
 Martinez-Moyano, and D. Thompson, “Emergent Methodological Contributions
 from Modeling for Critical Infrastructure Protection,” Sandia National
 Laboratory.
+
 Software
 --------
 
@@ -2325,6 +2335,7 @@ points? (iii) Incorporating consequence, vulnerability, and threat
 information into an overall risk assessment, what are the highest risk
 areas? (iv) What investment strategies can the U.S. make that will have
 the most impact in reducing overall risk?
+
 Videos
 ------
 

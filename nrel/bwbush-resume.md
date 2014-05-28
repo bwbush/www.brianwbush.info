@@ -118,7 +118,7 @@ Other Experience
 ----------------
 ### Publication
 
-Total of 150 publications (cited over 522 times), including 25 in refereed journals such as *Science*, *Physical Review Letters*, and *Fuzzy Sets & Systems*, 19 in conference proceedings, 10 conference posters, three in submission process, one patent disclosure, and 92 technical reports. Software packages written in C++ (173k+ LOC), Java (182k+ LOC), and Smalltalk (30k+ LOC).
+Total of 185 publications (cited over 1000 times), including 30 in refereed journals such as *Science*, *PLOS ONE*, *Physical Review Letters*, and *Fuzzy Sets & Systems*, 28 in conference proceedings, 10 conference posters, three in submission process, one patent disclosure, and 101 technical reports. Software packages written in C++ (173k+ SLOC), FORTRAN (15k+ SLOC), Haskell (20k+ SLOC), Java (186k+ SLOC), and Smalltalk (30k+ SLOC).
 
 ### Public Speaking
 
