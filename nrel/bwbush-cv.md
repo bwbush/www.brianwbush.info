@@ -245,13 +245,15 @@ California Junior Classical League Competition, first place in 1st year Latin Gr
 
 ### Collaboration
 
-Collaborator with scientists at Argonne National Laboratory, Brookhaven National Laboratory, Idaho National Engineering Laboratory, Los Alamos National Laboratory, Michigan State University, National Center for Atmospheric Research, Pacific Northwest National Laboratory, Sandia National Laboratories, University of Colorado, University of Denver, University of Washington, Washington State University, Weizmann Institute, and Yale University.
+Collaborator with scientists at Argonne National Laboratory, Brookhaven National Laboratory, Idaho National Engineering Laboratory, Los Alamos National Laboratory, Michigan State University, National Center for Atmospheric Research, Oak Ridge National Laboratory, Pacific Northwest National Laboratory, Sandia National Laboratories, University of Colorado, University of Denver, University of Washington, Washington State University, Weizmann Institute, and Yale University.
 
 ### Teaching
 
 Frequently mentored graduate students and post-docs.
 
 Supervised graduate research assistants.
+
+Tutored math and writing in primary and secondary schools.
 
 Occasionally taught or assisted teaching university courses up to graduate level.
 
@@ -266,8 +268,6 @@ Haskell: 20,215 source lines of code.
 Java: 186,400 source lines of code.
 
 Smalltalk: 30,664 source lines of code.
-
-Vensim: 1,293 equations.
 
 ### Beta Testing
 
