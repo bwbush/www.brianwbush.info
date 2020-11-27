@@ -103,6 +103,14 @@ h3 {
 }
 
 
+.plink {
+  display         : inline-block;
+  padding         : 0.25em      ;
+  border-radius   : 0.5em       ;
+  background-color: lightsteelblue;
+}
+
+
 a:hover {
   border-bottom: 1px solid lightsteelblue;
 }
