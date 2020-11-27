@@ -1,50 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - TRansportation ANalysis SIMulation System [TRANSIMS]</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>TRansportation ANalysis SIMulation System [TRANSIMS]</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <span>TRANSIMS</span>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>TRansportation ANalysis SIMulation System [TRANSIMS]</h2>
         <p>The TRansportation ANalysis SIMulation System [TRANSIMS] is a set of new transportation and air quality analysis and forecasting procedures developed to meet the Clean Air Act, the Intermodal Surface Transportation Efficiency Act, Transportation Equity Act for the 21st Century, and other regulations. It consists of mutually supporting simulations, models, and databases that employ advanced computational and analytical techniques to create an integrated regional transportation system analysis environment. By applying advanced technologies and methods, it simulates the dynamic details that contribute to the complexity inherent in today’s and tomorrow’s transportation issues. The integrated results from the detailed simulations will support transportation planners, engineers, decision makers, and others who must address environmental pollution, energy consumption, traffic congestion, land use planning, traffic safety, intelligent vehicle efficiencies, and the transportation infrastructure effect on the quality of life, productivity, and economy.</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/S2EQPH8M">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/S2EQPH8M">Selected Publications</a></h3>
 <div class="references">
 <p>
 C. L. Barret, R. J. Beckman, K. P. Berkbigler, B. W. Bush, L. M. Moore, and D. Visarraga, “Actuated Signals in TRANSIMS,” Los Alamos National Laboratory, Report LA-UR-01-4609. <br /><small>This report outlines recent work implementing and calibrating actuated traffic controls and vehicle detectors in TRANSIMS. We have developed a generic control that provides a flexible approach to representing such devices. Although not modeled upon specific existing hardware or algorithms, our implementation provides a responsive control over a wide variety of demand conditions.</small>
@@ -148,16 +144,7 @@ B. W. Bush, “TRANSIMS and the hierarchical data format,” Los Alamos National
 <p>
 B. W. Bush, K. P. Berkbigler, and L. L. Smith, “TRANSIMS Data Preparation Guide,” Los Alamos National Laboratory, Report LA-UR-98-1411.
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

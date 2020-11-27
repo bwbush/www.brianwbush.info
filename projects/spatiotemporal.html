@@ -1,50 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Spatiotemporal Analysis of Renewable Energy Datasets</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Spatiotemporal Analysis of Renewable Energy Datasets</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <span>Geostatistics</span>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <a href="transims.html">TRANSIMS</a>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>Spatiotemporal Analysis of Renewable Energy Datasets</h2>
         <p>The primary thrust of this project was to investigate whether geostatistical techniques can be used productively to increase the spatial and temporal resolution of renewable energy production and load data, for use as inputs to grid integration models. Specifically, we used mapping techniques to predict solar output at subhourly resolution at any spatial point (disaggregation and extrapolation) or region. To assess the electric power grid environment under high penetrations of wind, CSP, and solar PV for any location in the southwest United States, solar resource estimates in several-minute time steps are required for any desired location. Typical measured solar radiation or PV output data is spatially sparse but temporally dense (1–10 minute time resolution), whereas satellite-based (modeled) PV data is spatially dense (typically a 10 km grid) but temporally sparse (typically hourly). These data sets must be combined to create an improved estimate of PV output for the desired locations and times. The accuracy of the estimated data must be established, and if this accuracy is not adequate for the desired application, sites should be identified for new measurement stations. These goals were accomplished by using geostatistics and atmospheric science to estimate solar PV output. In addition to handling a mixture of spatial and temporal resolutions, modern geostatistics also self-consistently melds “hard” (accurate) and “soft” (lower accuracy) data into reconstructions that include data uncertainty sources (i.e., modeled data inaccuracy and classification of atmospheric variables).</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/X9J38JNB">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/X9J38JNB">Selected Publications</a></h3>
 <div class="references">
 <p>
 S. Lee, R. George, and B. Bush, “Estimating Solar PV Output Using Modern Space/Time Geostatistics,” presented at the 2009 Colorado Renewable Energy Conference, Golden, Colorado. &lt;<a href="http://www.nrel.gov/docs/fy09osti/46208.pdf">http://www.nrel.gov/docs/fy09osti/46208.pdf</a>&gt;<br /><small>This presentation describes a project that uses mapping techniques to predict solar output at subhourly resolution at any spatial point, develop a methodology that is applicable to natural resources in general, and demonstrate capability of geostatistical techniques to predict the output of a potential solar plant.</small>
@@ -52,16 +48,7 @@ S. Lee, R. George, and B. Bush, “Estimating Solar PV Output Using Modern Space
 <p>
 S.-J. Lee, B. Bush, and R. George, “Analytic science for geospatial and temporal variability in renewable energy: A case study in estimating photovoltaic output in Arizona,” <em>Solar Energy</em>, vol. 85, no. 9, pp. 1945–1956. &lt;<a href="http://www.sciencedirect.com/science/article/pii/S0038092X11001745">http://www.sciencedirect.com/science/article/pii/S0038092X11001745</a>&gt;<br /><small>To assess the electric power grid environment under the high penetration of photovoltaic (PV) generation, it is important to construct an accurate representation of PV power output for any location in the southwestern United States at resolutions down to 10-min time steps. Existing analyses, however, typically depend on sparsely spaced measurements and often include modeled data as a basis for extrapolation. Consequentially, analysts have been confronted with inaccurate analytic outcomes due to both the quality of the modeled data and the approximations introduced when combining data with differing space/time attributes and resolutions. This study proposes an accurate methodology for 10-min PV estimation based on the self-consistent combination of data with disparate spatial and temporal characteristics. Our Type I estimation uses the nearby locations of temporally detailed PV measurements, whereas our Type II estimation goes beyond the spatial range of the measured PV incorporating alternative data set(s) for areas with no PV measurements; those alternative data sets consist of: (1) modeled PV output and secondary cloud cover information around space/time estimation points, and (2) their associated uncertainty. The Type I estimation identifies a spatial range from existing PV sites (30–40 km), which is used to estimate accurately 10-min PV output performance. Beyond that spatial range, the data-quality-control estimation (Type II) demonstrates increasing improvement over the Type I estimation that does not assimilate the uncertainty of data sources. The methodology developed herein can assist the evaluation of the impact of PV generation on the electric power grid, quantify the value of measured data, and optimize the placement of new measurement sites.</small>
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

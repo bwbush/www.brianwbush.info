@@ -1,129 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Welcome</title>
-    <link rel="stylesheet" type="text/css" href="./css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="view.css" type="text/css" rel="stylesheet"/>
+    <script src="controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="./">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">Biographical Sketch</a></li>
-          <li><a href="./docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="./pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="./projects.html">Projects</a>
-            <ul>
-              <li><a href="./projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="./projects/bioluc.html">BioLUC</a></li>
-              <li><a href="./projects/bsm.html">BSM</a></li>
-              <li><a href="./projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="./projects/cub.html">CUB</a></li>
-              <li><a href="./projects/risk.html">Finance Risk</a></li>
-              <li><a href="./projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="./projects/hydra.html">HYDRA</a></li>
-              <li><a href="./projects/ieiss.html">IEISS</a></li>
-              <li><a href="./projects/incca.html">INCCA</a></li>
-              <li><a href="./projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="./projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="./projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="./projects/physics.html">Physics</a></li>
-              <li><a href="./projects/sera.html">SERA</a></li>
-              <li><a href="./projects/transims.html">TRANSIMS</a></li>
-              <li><a href="./projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="./index.html#software">Software</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div id="content">
-        <h1>Welcome</h1>
-        <ul>
-  <li>contact information:
-    <ul>
-      <li>i-name: <a href="http://xri.net/=b.w.bush" title="i-name">xri://=b.w.bush</a></li>
-      <li>current e-mail address: <a href="mailto:b.w.bush@acm.org" title="e-mail">b.w.bush@acm.org</a></li>
-    </ul>
-  </li>
-  <li>professional information:
-    <ul>
-      <li><a href="about.html" title="biographical sketch">biographical sketch</a></li>
-      <li>résumé
-        <a href="docs/bwbush-resume.html" title="résumé (HTML)"><img alt="résumé (HTML)" src="images/icon-html.gif" /></a>
-        <a href="docs/bwbush-resume.pdf" title="résumé (PDF)"><img alt="résumé (PDF)" src="images/icon-pdf-doc.gif" /></a>
-        <a href="docs/bwbush-resume.docx" title="résumé (Word)"><img alt="résumé (Word)" src="images/icon-word.gif" /></a>
-        <a href="docs/bwbush-resume.txt" title="résumé (text)"><img alt="résumé (text)" src="images/icon-text.gif" /></a>
-      </li>
-      <li>publications<ul>
-        <li>publication list
-          <a href="pubs/bwbush-pubs.html" title="publications (HTML)"><img alt="publications (HTML)" src="images/icon-html.gif" /></a>
-          <a href="pubs/bwbush-pubs.pdf" title="publications (PDF)"><img alt="publications (PDF)" src="images/icon-pdf-doc.gif" /></a>
-          <a href="pubs/bwbush-pubs.rtf" title="publications (Word)"><img alt="publications (Word)" src="images/icon-word.gif" /></a>, including selected abstracts
-        </li>
-        <li><a href="https://www.zotero.org/groups/brian_w_bush_publications/items">at Zotero</a> (curated)</li>
-        <li><a href="http://scholar.google.com/citations?user=hYmBRsMAAAAJ">at Google Scholar</a> (not curated)</li>
-        <li><a href="http://www.researchgate.net/profile/Brian_Bush">at Research Gate</a> (not curated)</li>
-      </ul></li>
-      <li>curriculum vitae available upon request <a href="mailto:b.w.bush@acm.org" title="request curriculum vitae"><img alt="request curriculum vitae" src="images/icon-mail.gif" /></a></li>
-    </ul>
-  </li>
-  <li>project summaries
-    <ul>
-      <li><a href="projects/bsm.html">bioenergy supply-chain modeling</a></li>
-      <li><a href="projects/sera.html">renewable energy infrastructure optimization</a></li>
-      <li><a href="projects/transims.html">transportation simulation</a></li>
-      <li><a href="projects/infrastructure.html">infrastructure modeling, simulation, and analysis</a></li>
-      <li><a href="projects/a-la-carte.html">supercomputer architecture simulation</a></li>
-      <li><a href="projects/physics.html">physics research</a></li>
-    </ul>
-  </li>
-  <li><a name="software">publicly available software</a>
-    <ul>
-      <li>C++<ul>
-        <li><a href="http://www.osti.gov/estsc/details.jsp?rcdid=3933">TRANSIMS</a>: a traffic microsimulation</li>
-        <li><a href="http://www.osti.gov/estsc/details.jsp?rcdid=3666">EPISIMS</a>: an epidemic microsimulation</li>
-      </ul></li>
-      <li>Fortran</li>
-      <li>Haskell<ul>
-        <li><a href="https://bitbucket.org/bwbush/handa-data">handa-data</a>: miscellaneous data structures and data functions</li>
-        <li><a href="https://code.google.com/p/hgdata/">handa-gdata</a>: access to Google APIs</li>
-        <li><a href="https://bitbucket.org/bwbush/handa-geodata">handa-geodata</a>: functions, types, and classes for manipulating geographic and geometric data</li>
-      </ul></li>
-      <li>Java</li>
-      <li>R</li>
-      <li>Smalltalk</li>
-      <li><a href="http://www.iseesystems.com/softwares/Education/StellaSoftware.aspx">STELLA</a><ul>
-        <li><a href="https://github.com/NREL/bioluc">BioLUC</a>: a biomass land-use change model</li>
-      </ul></li>
-    </ul>
-  </li>
-        
-  <li>web sites
-    <ul>
-      <li><a href="http://www.nrel.gov/analysis/staff/b_bush.html" title="Home page at NREL">home page</a> at the <a href="http://www.nrel.gov" title="NREL's home page">National Renewable Energy Laboratory [NREL]</a> where I am a staff member in the <a href="http://www.nrel.gov/analysis/staff_efm.html" title="Energy Forecasting &amp; Modeling Group">Energy Forecasting &amp; Modeling Group</a> in the <a href="http://www.nrel.gov/analysis/about_office.html" title="Strategic Energy Analysis Center">Strategic Energy Analysis Center</a>.</li>
-      <li><a href="applets/index.html">a few Java applets</a></li>
-    </ul>
-  </li>
-  <li>public encryption keys:
-    <ul>
-      <li><a href="bwbush.asc" title="GnuPG public key"><img alt="GnuPG key" src="images/key.gif" /></a> for <a href="http://www.gnupg.org/">GnuPG</a> and <a href="http://www.pgp.com/">PGP</a></li>
-    </ul>
-  </li>
-</ul>
-
+        <span class="navselect"    >About</span>
+        <a href="projects.html"    >Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="software.html"    >Software</a>
       </div>
     </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
+    <div id="main" tabindex="0">
+      <div>
+        <p>Brian W Bush is a Principal Engineer in the <a href="http://www.nrel.gov/analysis/staff_efm.html">Energy Forecasting &amp; Modeling Group</a> of the <a href="http://www.nrel.gov/analysis/about_office.html">Strategic Energy Analysis Center</a> at the <a href="http://www.nrel.gov/">National Renewable Energy Laboratory [NREL]</a>. He currently leads NREL’s <a href="projects/bsm.html">Biomass Scenario Model [BSM] project</a>, a system-dynamics simulation of the cellulosic biomass-to-biofuels supply chain, and its <a href="projects/sera.html">Scenario Evaluation and Regionalization Analysis [SERA] project</a>, an optimization tool for regional hydrogen infrastructure. He has also led and collaborated on projects focused on numerous data-science and data-engineering projects such as the geostatistical modeling and analysis of the spatial and temporal correlations in renewable energy resources, automated anomaly detection and correction in energy datasets, and logical reasoning on qualitative semi-structured databases. He is a member of NREL’s Research Council.</p>
+        <p>For more than seventeen years prior to his arrival at NREL, he was a technical staff member in the Energy and Infrastructure Analysis Group at Los Alamos National Laboratory [LANL]. His work on <a href="projects/transims.html">TRANSIMS [the Transportation Analysis Simulation System]</a> from 1994 to 2000 there focused on leading research on software architecture, the representation of road networks, microsimulation output collection, and data compression. More recently, he developed computer simulations for complex phenomena such as <a href="projects/infrastructure.html">interacting critical infrastructures</a> and <a href="projects/a-la-carte.html">supercomputer hardware architectures</a>. He formerly directed the <a href="projects/ieiss.html">Interdependent Energy Infrastructure Simulation System [IEISS]</a> and <a href="projects/cipdss.html">Critical Infrastructure Protection Decision Support System [CIPDSS]</a> projects, leading teams of approximately one dozen people, and held the position of Thrust Area Leader for the U.S. Dept. of Homeland Security’s Critical Infrastructure Protection Portfolio in its Science &amp; Technology Directorate. At LANL he was a member of its Patent Committee and its Institutional Computing Technical Committee. As a visiting scientist at the National Center for Atmospheric Research (NCAR), he initiated efforts to <a href="projects/weather-impacts.html">connect simulations of weather and climate to impact models for energy and infrastructure networks</a>.</p>
+        <p>Brian received a B.S. in physics at the California Institute of Technology in 1985 and a Ph.D. in theoretical physics at Yale University in 1990, where he was a National Science Foundation graduate fellow. He extensively performed and published <a href="projects/physics.html">physics research on ultrarelativistic heavy-ion collisions and nuclear shape fluctuations</a>. His research interests include statistical physics, symbolic dynamics, information theory, data mining, approximate reasoning, theory of simulation, and visualization.</p>
+        <h3>Contact</h3>
+        <table class="contacts">
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li><i>E-mail:</i> <a href="mailto:consult@brianwbush.info" target="brianwbush">consult@brianwbush.info</a></li>
+                  <li><i>Matrix:</i> <a href="https://element.io/get-started" target="brianwbush">@bwbush:matrix.org</a></li>
+                  <li><i>LinkedIn:</i> <a href="https://www.linkedin.com/in/bwbush" target="brianwbush">www.linkedin.com/in/bwbush</a>
+                  <li><i>NREL:</i> <a href="https://www.nrel.gov/research/staff/brian-bush.html">www.nrel.gov/research/staff/brian-bush.html</a></li>
+                  <li><i>Personal:</i> <a href="https://www.bwbush.io/">www.bwbush.io<svg width="1em" height="1em" viewBox="0 0 24 24"><g id="external_link" class="icon_svg-stroke" stroke="#666" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline><path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path></g></svg></a></li>
+                  <li><i>Twitter:</i> <a href="https://twitter.com/bwbush" target="brianwbush">@bwbush</a></li>
+                  <li><i>ORCID:</i> <a href="https://orcid.org/0000-0003-2864-7028" target="brianwbush"><code>0000-0003-2864-7028</code></a></li>
+                  <li><i>GnuPG:</i> <a href="http://keys.gnupg.net/pks/lookup?search=consult%40brianwbush.info&amp;fingerprint=on" target="brianwbush"><code>3C7D 9DA6 F609 D100 E7E9  125A A963 F1B2 BD1E E51C</code></a></li>
+                </ul>
+              </td>
+              <td>
+                <img id="photo" src="images/bwbush-line-mod.png" alt="Brian W Bush"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </body>
 </html>

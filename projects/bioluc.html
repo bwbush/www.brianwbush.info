@@ -1,64 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Bioenergy Land Use Change [BioLUC]</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Bioenergy Land Use Change [BioLUC]</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <span>BioLUC</span>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <a href="transims.html">TRANSIMS</a>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>Bioenergy Land Use Change [BioLUC]</h2>
         <p>The BioLUC [Bioenergy Land Use Change] model is a system dynamics simulation of the drivers and impacts of biomass production on global land use change. It aims to integrate land-use-change, life-cycle- analysis, and supply-chain models in order to assess global sustainability impacts of domestic bioenergy production.</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/E6E2H36M">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/E6E2H36M">Selected Publications</a></h3>
 <div class="references">
 <p>
 E. Warner, D. Inman, B. Kunstman, B. Bush, L. Vimmerstedt, S. Peterson, J. Macknick, and Y. Zhang, “Modeling biofuel expansion effects on land use change dynamics,” <em>Environmental Research Letters</em>, vol. 8, no. 1, p. 015003. &lt;<a href="http://iopscience.iop.org/1748-9326/8/1/015003/">http://iopscience.iop.org/1748-9326/8/1/015003/</a>&gt;<br /><small>Increasing demand for crop-based biofuels, in addition to other human drivers of land use, induces direct and indirect land use changes (LUC). Our system dynamics tool is intended to complement existing LUC modeling approaches and to improve the understanding of global LUC drivers and dynamics by allowing examination of global LUC under diverse scenarios and varying model assumptions. We report on a small subset of such analyses. This model provides insights into the drivers and dynamic interactions of LUC (e.g., dietary choices and biofuel policy) and is not intended to assert improvement in numerical results relative to other works. Demand for food commodities are mostly met in high food and high crop-based biofuel demand scenarios, but cropland must expand substantially. Meeting roughly 25% of global transportation fuel demand by 2050 with biofuels requires &gt;2 times the land used to meet food demands under a presumed 40% increase in per capita food demand. In comparison, the high food demand scenario requires greater pastureland for meat production, leading to larger overall expansion into forest and grassland. Our results indicate that, in all scenarios, there is a potential for supply shortfalls, and associated upward pressure on prices, of food commodities requiring higher land use intensity (e.g., beef) which biofuels could exacerbate.</small>
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

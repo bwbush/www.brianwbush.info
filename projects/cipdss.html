@@ -1,51 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Critical Infrastructure Protection Decision Support System [CIPDSS]</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Critical Infrastructure Protection Decision Support System [CIPDSS]</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <span>CIPDSS</span>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <a href="transims.html">TRANSIMS</a>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>Critical Infrastructure Protection Decision Support System [CIPDSS]</h2>
         <p>The Critical Infrastructure Protection Decision Support System [CIPDSS] provides information and decision support for the protection of critical infrastructures based on an assessment of risks appropriately accounting for the likelihood of threat, vulnerabilities, and uncertain consequences associated with terrorist activities, natural disasters, and accidents.</p>
 <p>CIPDSS is a computer simulation and decision analytic tool that informs users when making difficult choices between alternative mitigation measures and operational tactics, or when allocating limited resources to protect the nation’s critical infrastructures against existing and future threats. CIPDSS integrates event simulation with a risk assessment process, explicitly accounting for uncertainties in threats, vulnerabilities, and the consequences of terrorist acts and natural disasters. CIPDSS models the primary interdependencies that link 17 CIKR together and calculates the impacts that cascade into these interdependent infrastructures and into the national economy.</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/FND3AKJV">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/FND3AKJV">Selected Publications</a></h3>
 <div class="references">
 <p>
 B. Bush, L. Dauelsberg, A. Ivey, R. LeClaire, D. Powell, S. DeLand, and M. Samsa, “Critical Infrastructure Protection Decision Support System (CIP/DSS) Project Overview,” presented at the 3rd International Conference of the System Dynamics Society, Boston. <br /><small>The Critical Infrastructure Protection Decision Support System (CIP/DSS) simulates the dynamics of individual infrastructures and couples separate infrastructures to each other according to their interdependencies. For example, repairing damage to the electric power grid in a city requires transportation to failure sites and delivery of parts, fuel for repair vehicles, telecommunications for problem diagnosis and coordination of repairs, and the availability of labor. The repair itself involves diagnosis, ordering parts, dispatching crews, and performing work. The electric power grid responds to the initial damage and to the completion of repairs with changes in its operating characteristics. Dynamic processes like these are represented in the CIP/DSS infrastructure sector simulations by differential equations, discrete events, and codified rules of operation. Many of these variables are output metrics estimating the human health, economic, or environmental effects of disturbances to the infrastructures.</small>
@@ -86,16 +82,7 @@ Lori R. Dauelsberg, Dennis R. Powell, Rene J. LeClaire, Brian W. Bush, Sharon M.
 <p>
 M. Samsa, R. Raynor, S. M. DeLand, H.-S. J. Min, D. R. Powell, W. E. Beyeler, G. Hirsch, R. Whitfield, J. Fair, L. Dauelsberg, B. W. Bush, and R. J. LeClaire, “Critical Infrastructure Protection Decision Support System Evaluation of a Biological Scenario.” Sandia National Laboratories, SAND2005-2399C. &lt;<a href="http://www.osti.gov/scitech/biblio/966930">http://www.osti.gov/scitech/biblio/966930</a>&gt;
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

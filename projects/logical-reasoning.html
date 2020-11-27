@@ -1,64 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Logical Reasoning on Semistructured Databases</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Logical Reasoning on Semistructured Databases</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <span>Logical Reasoning</span>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <a href="transims.html">TRANSIMS</a>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>Logical Reasoning on Semistructured Databases</h2>
         <p>The goal of this project was to embody the constraints and rules of the interpretation of incentives in the <a href="http://www.dsireusa.org/">DSIRE database</a> into logic-based algorithms and software capable of accurately responding to moderately complex queries about the applicability of particular combinations of incentives under specific conditions.</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/K8R93P8A">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/K8R93P8A">Selected Publications</a></h3>
 <div class="references">
 <p>
 B. W. Bush, E. Doris, and D. Getman, “Understanding the Complexities of Subnational Incentives in Supporting a National Market for Distributed PV.” <br /><small>The purpose of this work is to contribute to the discussion of the impact subnational (State, local, and utility) policies, as a group, have on the national market for solar PV technologies. Subnational policies have increased in volume in recent years and federal incentives are set to be phased out over the next few. Understanding how subnational policies intertwine within and across jurisdictions to impact market development provides information to both federal program administrators and subnational policymakers to support informed policy decision making. In order to do add value to the current discussion on subnational policies, a logic engine containing incentives for PV development was developed. The incentives used are from the US Department of Energy’s (DOE) Database of Incentives for Energy Efficiency and Renewable Energy (DSIRE), widely considered to be the most comprehensive listing of US policies and incentives. The logic engine adds value to the DSIRE database by allowing users to see the interactions of incentives along with exogenous factors such as geographic location, technology characteristics, and financial parameters. Depending on how it is queried, the database can yield insights into which combinations of incentives are available and most advantageous under particular circumstances as requested by the user. To illustrate the capabilities of the logic engine, the database was queried to identify the relative complexities of incentives at the subnational level. The goal was to identify how many incentives they qualify for, and the subset of those that result in the largest monetary benefit (the “best” combination of incentives). The outcomes inform federal program designers as to the complexity of the incentive “market” nationwide, and subnational policymakers to the complexities of incentives within their jurisdiction, as well as allow for a comparison of complexities between jurisdictions.</small>
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

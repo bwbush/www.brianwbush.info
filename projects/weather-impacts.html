@@ -1,50 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Weather Impacts</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Weather Impacts</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <a href="transims.html">TRANSIMS</a>
+        <span>Weather</span>
+      </div>
+      <div id="pjcontent">
+        <h2>Weather Impacts</h2>
         <p>We are bringing scientists and engineers working on infrastructure impact modeling together with atmospheric scientists working on weather extremes to focus on the consequences of extreme wind, extreme precipitation, fire weather, and biochemical dispersion. The goals of the workshop are (i) to identify the science challenges affecting their work, (ii) to outline how to improve infrastructure impact models, and (iii) to document gaps between existing and desired analytic capabilities. The phenomena under consideration include hurricanes, ice storms, extreme precipitation, extreme convection, heat, flooding, drought, climate change, etc. Impacts time scales vary from a few hours (predictive and emergency response) to decades (engineering design and community planning). The workshop will focus on documenting requirements, building collaborations, identifying research gaps, and proposing steps forward.</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/X5G5JHAR">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/X5G5JHAR">Selected Publications</a></h3>
 <div class="references">
 <p>
 A. Ivey, L. Toole, B. Bush, and S. Fernandez, “Impacts of Hurricanes on Critical Infrastructure,” presented at the U.S. Department of Energy GIS Expo, Washington, D.C.
@@ -82,16 +78,7 @@ A. Ivey, L. Toole, B. Bush, and S. Fernandez, “Summary of Critical Infrastruct
 <p>
 Toole, L., Flaim, S., Fernandez, S.J., Bossert, J., Bush, B., and Neenan, B., “Effects of Climate Change on California Energy Security,” in <em>SSR 2006: International Symposium on Systems &amp; Human Science</em>, Vienna, Austria. <br /><small>Sound energy planning requires an understanding of the primary external drivers that will impact national futures over the next 25 years. One of the principal impacts may be from climate variability—induced by both natural cycles and anthropogenic forcing. The Southwestern United States is a case in point. This semi-arid region has seen its water and landscape resources threatened by extended drought, and it will remain in a precarious position—projected to increase its population by 50% over the next 25 years and highly susceptible to the vagaries of climate change. This study, performed at Los Alamos National Laboratory, focused on climate change impacts that may occur within the regional surrounding California prior to 2035. Results from the Hadley CM-3 climate model were used as drivers for a comprehensive electric energy model of the California regional network. Approximately 57 Gigawatts (GWe) of new generation capacity will be required starting in 2022 due only to population growth and economic expansion. Additional generation capacity will be required starting in 2015 due to climate change to meet higher electricity demand. To pass through or mitigate such effects to the consumer, Federal and state government will require new regulatory and pricing policies. This paper discusses the adaptive changes required to address regulatory, social and physical security issues related to climate change.</small>
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

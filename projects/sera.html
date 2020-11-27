@@ -1,51 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Scenario Evaluation, Regionalization, &amp; Analysis [SERA]</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Scenario Evaluation, Regionalization, &amp; Analysis [SERA]</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <a href="risk.html">Finance Risk</a>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <span>SERA</span>
+        <a href="transims.html">TRANSIMS</a>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>Scenario Evaluation, Regionalization, &amp; Analysis [SERA]</h2>
         <p>SERA [Scenario Evaluation, Regionalization &amp; Analysis] is a geospatially and temporally oriented infrastructure analysis model that determines the optimal production and delivery scenarios for hydrogen, given resource availability and technology cost. Given annual H2 demands on a city-by-city basis, forecasts of feedstock costs, and a catalog of available hydrogen production and transportation technologies, the model generates “blueprints” for hydrogen infrastructure build-out that minimize the overall net-present-value of capital, operating, and feedstock costs for infrastructure networks that meet the specified demand profiles. The model represents production facilities and pipelines at the level of individually geolocated components, while it treats truck and rail transportation at an aggregate level. Intra-urban locations of dispensing stations and of hydrogen production for stationary applications are generated using a geospatial statistical model that matches empirical distributions of such facilities.</p>
 <p>Prior to October 2009, the model was know as the Hydrogen Deployment System Modeling Environment [HyDS-ME]</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/HBXAR5PR">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/HBXAR5PR">Selected Publications</a></h3>
 <div class="references">
 <p>
 B. Bush, M. Melaina, M. Penev, and W. Daniel, “SERA Scenarios of Early Market Fuel Cell Electric Vehicle Introductions: Modeling Framework, Regional Markets, and Station Clustering,” National Renewable Energy Laboratory, Golden, Colorado, Technical Report NREL/TP-5400-56588. &lt;<a href="http://www.nrel.gov/docs/fy13osti/56588.pdf">http://www.nrel.gov/docs/fy13osti/56588.pdf</a>&gt;<br /><small>The availability of fueling infrastructure has become a major barrier to the early market success of hydrogen fuel cell electric vehicles (FCEVs). Various models have addressed infrastructure development during the early transition phase, but few long-term models have captured development dynamics in a manner that is consistent with real-world planning activities. This report describes the development and analysis of detailed temporal and spatial scenarios for early market infrastructure clustering and vehicle rollout using the Scenario Evaluation, Regionalization and Analysis (SERA) model. The scenarios reconcile nationwide scenario dynamics from a National Academy of Sciences study (NAS 2008) with observations and lessons learned from California’s early market strategy and planning activities (CaFCP 2012). The report provides an overview of the SERA scenario development framework and discusses the approach used to develop the nationwide scenario. The capability to focus on detailed infrastructure rollout dynamics within particular regions and states is then discussed with reference to Northeast Corridor states. The report also provides a description of the enhanced station placement algorithms developed to simulate both urban area network coverage and station clustering in neighborhoods with high densities of early adopters. Results from the national scenario analysis suggest that long-term levelized delivered costs for hydrogen tend toward $6.00/kg nationally, and zero cumulative cash flow is achieved in about 2018 or 2025 if hydrogen is priced at $11.00/kg and $6.75/kg, respectively. The capability to focus on dynamics within particular regions and to articulate detailed station placement strategies within urban areas adds realism and a planning perspective to these national scenario results.</small>
@@ -56,16 +52,7 @@ B. Bush, O. Sozinova, and M. Melaina, “Optimal Regional Layout of Least-Cost H
 <p>
 M. S. Melaina, Y. Sun, and B. Bush, “Retail Infrastructure Cost Comparison for Hydrogen and Electricity Light-Duty Vehicles,” presented at the SAE 2014 World Congress and Exhibition, Detroit, Michigan. <br /><small>Both hydrogen and plug-in electric vehicles offer significant social benefits to enhance energy security and reduce criteria and greenhouse gas emissions from the transportation sector. However, the rollout of electric vehicle supply equipment (EVSE) and hydrogen retail stations (HRS) requires substantial investments with high risks due to many uncertainties. We compare retail infrastructure costs on a common basis – cost per mile, assuming fueling service to 10% of all light-duty vehicles in a typical 1.5 million person city in 2025. Our analysis considers three HRS sizes, four distinct types of EVSE and two distinct EVSE scenarios. EVSE station costs, including equipment and installation, are assumed to be 15% less than today’s costs. We find that levelized retail capital costs per mile are essentially indistinguishable given the uncertainty and variability around input assumptions. Total fuel costs per mile for battery electric vehicle (BEV) and plug-in hybrid vehicle (PHEV) are, respectively, 21% lower and 13% lower than that for hydrogen fuel cell electric vehicle (FCEV) under the home-dominant scenario. Including fuel economies and vehicle costs makes FCEVs and BEVs comparable in terms of costs per mile, and PHEVs are about 10% less than FCEVs and BEVs. To account for geographic variability in energy prices and hydrogen delivery costs, we use the Scenario Evaluation, Regionalization and Analysis (SERA) model and confirm the aforementioned estimate of cost per mile, nationally averaged, but see a 15% variability in regional costs of FCEVs and a 5% variability in regional costs for BEVs.</small>
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>

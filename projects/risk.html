@@ -1,51 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Brian W Bush - Risk Analysis of Renewable Energy Investments</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="../view.css" type="text/css" rel="stylesheet"/>
+    <script src="../controller.js" type="application/javascript"> </script>
+    <title>Brian W Bush</title>
   </head>
-  <body>
-    <div id="main">
+  <body onload="setup()">
+    <div id="header">
+      <h1>Brian W Bush</h1>   
       <div id="navigation">
-        <div id="logo">
-          <a href="../">Brian W Bush</a>
-        </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about.html">Biographical Sketch</a></li>
-          <li><a href="../docs/bwbush-resume.html">Résumé</a></li>
-          <li><a href="../pubs/bwbush-pubs.html">Publications</a></li>
-          <li><a href="../projects.html">Projects</a>
-            <ul>
-              <li><a href="../projects/a-la-carte.html">À la carte</a></li>
-              <li><a href="../projects/bioluc.html">BioLUC</a></li>
-              <li><a href="../projects/bsm.html">BSM</a></li>
-              <li><a href="../projects/cipdss.html">CIPDSS</a></li>
-              <li><a href="../projects/cub.html">CUB</a></li>
-              <li><a href="../projects/risk.html">Finance Risk</a></li>
-              <li><a href="../projects/spatiotemporal.html">Geostatistics</a></li>
-              <li><a href="../projects/hydra.html">HYDRA</a></li>
-              <li><a href="../projects/ieiss.html">IEISS</a></li>
-              <li><a href="../projects/incca.html">INCCA</a></li>
-              <li><a href="../projects/infrastructure.html">Infrastructure</a></li>
-              <li><a href="../projects/logical-reasoning.html">Logical Reasoning</a></li>
-              <li><a href="../projects/automated-analysis.html">Machine Learning</a></li>
-              <li><a href="../projects/physics.html">Physics</a></li>
-              <li><a href="../projects/sera.html">SERA</a></li>
-              <li><a href="../projects/transims.html">TRANSIMS</a></li>
-              <li><a href="../projects/weather-impacts.html">Weather</a></li>
-            </ul></li>
-          <li><a href="../index.html#software">Software</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-        </ul>
+        <a href="../index.html"       >About</a>
+        <a href="../projects.html"    >Projects</>
+        <a href="../publications.html">Publications</a>
+        <a href="../software.html"    >Software</a>
       </div>
-      <div id="content">
-        <h1>Risk Analysis of Renewable Energy Investments</h1>
+    </div>
+    <div id="main" tabindex="0">
+      <div id="pjindex">
+        <a href="a-la-carte.html">À la carte</a>
+        <a href="bioluc.html">BioLUC</a>
+        <a href="bsm.html">BSM</a>
+        <a href="cipdss.html">CIPDSS</a>
+        <a href="cub.html">CUB</a>
+        <span>Finance Risk</span>
+        <a href="spatiotemporal.html">Geostatistics</a>
+        <a href="hydra.html">HYDRA</a>
+        <a href="ieiss.html">IEISS</a>
+        <a href="incca.html">INCCA</a>
+        <a href="infrastructure.html">Infrastructure</a>
+        <a href="logical-reasoning.html">Logical Reasoning</a>
+        <a href="automated-analysis.html">Machine Learning</a>
+        <a href="physics.html">Physics</a>
+        <a href="sera.html">SERA</a>
+        <a href="transims.html">TRANSIMS</a>
+        <a href="weather-impacts.html">Weather</a>
+      </div>
+      <div id="pjcontent">
+        <h2>Risk Analysis of Renewable Energy Investments</h2>
         <p>The focus of this project is on gaining a better understanding of the potential variance-related benefits (or disadvantages) of using renewable energy such as wind relative to natural gas generation, including the visualization of such behavior. Specifically, we explored the effect of wind energy and natural gas technologies on the variance of producer and consumer surplus, measured respectively in terms of profits (e.g., annualized returns) or monthly consumer costs ($/kWh). This work differs from a number of other studies in several ways by using hourly historical information over a 10 year period (1999 to 2008) to estimate returns and costs, and their variance for both the producer and the consumer, respectively, under the two most common alternative market structure scenarios (i) deregulation and (ii) “cost-plus” regulation.</p>
 <p>We were interested in understanding differences in expected value and variance of net returns and costs experienced by producers and consumers in a given market structure, and how this changes with market structure assumptions. The analysis looks at several timeframes (e.g., monthly consumer cost of energy [$/MWh-month], annualized producer returns) using hourly dispatch information. Using historical price data in an empirical analysis of cost/price variance nicely complements forward-looking analytic and Monte Carlo studies of electricity production portfolios in that it accounts for the non-normal distributions and the complex correlations in time and between energy commodities in a manner that is not typically or easily represented in simple forward-looking models. A secondary goal of this project is to consider the value and limitations of various simple aggregated representations of risk and reward, and how this is impacted by non-normal asymmetric distributions.</p>
-<h2 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/T5DMCGUI">Selected Publications</a></h2>
+<h3 id="selected-publications"><a href="https://www.zotero.org/groups/brian_w_bush_publications/items/collectionKey/T5DMCGUI">Selected Publications</a></h3>
 <div class="references">
 <p>
 B. Bush, T. Jenkin, D. Lipowicz, D. Arent, and R. Cooke, “Variance Analysis of Wind and Natural Gas Generation under Different Market Structures: Some Observations,” National Renewable Energy Laboratory, Golden, Colorado, Research Report TP-6A20-52790. &lt;<a href="http://www.nrel.gov/docs/fy12osti/52790.pdf">http://www.nrel.gov/docs/fy12osti/52790.pdf</a>&gt;<br /><small>Does large scale penetration of renewable generation such as wind and solar power pose economic and operational burdens on the electricity system? A number of studies have pointed to the potential benefits of renewable generation as a hedge against the volatility and potential escalation of fossil fuel prices. Research also suggests that the lack of correlation of renewable energy costs with fossil fuel prices means that adding large amounts of wind or solar generation may also reduce the volatility of system-wide electricity costs. Such variance reduction of system costs may be of significant value to consumers due to risk aversion. The analysis in this report recognizes that the potential value of risk mitigation associated with wind generation and natural gas generation may depend on whether one considers the consumer’s perspective or the investor’s perspective and whether the market is regulated or deregulated. We analyze the risk and return trade-offs for wind and natural gas generation for deregulated markets based on hourly prices and load over a 10-year period using historical data in the PJM Interconnection (PJM) from 1999 to 2008. Similar analysis is then simulated and evaluated for regulated markets under certain assumptions.</small>
@@ -56,16 +52,7 @@ R. H. Byrne, B. W. Bush, and T. Jenkin, “Long-term Modelling of Natural Gas Pr
 <p>
 T. Jenkin, V. Diakov, E. Drury, B. Bush, P. Denholm, J. Milford, D. Arent, R. Margolis, and R. Byrne, “The Use of Solar and Wind as a Physical Hedge against Price Variability within a Generation Portfolio,” National Renewable Energy Laboratory, Golden, Colorado, Technical Report NREL/TP-6A20-59065. &lt;<a href="http://www.nrel.gov/docs/fy13osti/59065.pdf">http://www.nrel.gov/docs/fy13osti/59065.pdf</a>&gt;<br /><small>This study provides a framework to explore the potential use and incremental value of small- to large-scale penetration of solar and wind technologies as a physical hedge against the risk and uncertainty of electricity cost on multi-year to multi-decade timescales. Earlier studies characterizing the impacts of adding renewable energy (RE) to portfolios of electricity generators often used a levelized cost of energy or simplified net cash flow approach. In this study, we expand on previous work by demonstrating the use of an 8760 hourly production cost model (PLEXOS) to analyze the incremental impact of solar and wind penetration under a wide range of penetration scenarios for a region in the Western U.S. We do not attempt to “optimize” the portfolio in any of these cases. Rather we consider different RE penetration scenarios, that might for example result from the implementation of a Renewable Portfolio Standard (RPS) to explore the dynamics, risk mitigation characteristics and incremental value that RE might add to the system. We also compare the use of RE to alternative mechanisms, such as the use of financial or physical supply contracts to mitigate risk and uncertainty, including consideration of their effectiveness and availability over a variety of timeframes.</small>
 </p>
-</div>
-
       </div>
-    </div>
-    <div id="footer">
-      <em>Copyright © 2006-2014 B W Bush<br />All rights reserved</em>
-      <br /><br />
-      Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>.
-      <br />
-      Site source on <a href="http://code.bwbush.io/www-bwbush-io">bitbucket</a>.
     </div>
   </body>
 </html>
